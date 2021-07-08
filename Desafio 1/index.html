@@ -31,10 +31,71 @@
 
             <form action="#">
                 <i class="fas fa-search"></i>
-                <input type="text" name="" id="" placeholder="Pesquisar no blog">
+                <input type="search" name="" id="" placeholder="Pesquisar no blog">
             </form>
         </div>
     </header>
+
+    <main>
+        <section>
+            <div class="status">
+                <p>02 de jul, 2021</p>
+                <i class="far fa-heart" onclick="like(this)"></i>
+            </div>
+            <div class="info">
+                <h3>Agora é oficial: o Windows 11 está vindo!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae
+                    finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="status">
+                <p>02 de jul, 2021</p>
+                <i class="far fa-heart" onclick="like(this)"></i>
+            </div>
+            <div class="info">
+                <h3>Tim Berners-Lee vai leiloar código-fonte da web.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur
+                    arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus
+                    tincidunt fermentum eu at sem. Curabitur lacus libero.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="status">
+                <p>02 de jul, 2021</p>
+                <i class="far fa-heart" onclick="like(this)"></i>
+            </div>
+            <div class="info">
+                <h3>Tem Firefox novo no pedaço e você vai querer migrar.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="status">
+                <p>02 de jul, 2021</p>
+                <i class="far fa-heart" onclick="like(this)"></i>
+            </div>
+            <div class="info">
+                <h3>John MCAfee, criador do antivírus McAfee, morre.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+            </div>
+        </section>
+    </main>
+
+
+    <script>
+        function like(x) {
+         
+            if (x.style.fontWeight === "900") {
+                x.style.fontWeight = "500";
+            } else {
+                x.style.fontWeight = "900";
+            }
+        }
+    </script>
 
 </body>
 
