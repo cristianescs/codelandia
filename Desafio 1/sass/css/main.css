@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  padding: 48px 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#574AE8), to(#3EA1DB));
+  background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+header .container {
+  height: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 4.7px;
+}
+
+header form {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+header form i {
+  margin-right: 10px;
+}
+
+header form input {
+  background: none;
+  border: none;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Inter", sans-serif;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+  font-family: "Inter", sans-serif;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+::-ms-input-placeholder {
+  font-family: "Inter", sans-serif;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+::placeholder {
+  font-family: "Inter", sans-serif;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=main.css.map */

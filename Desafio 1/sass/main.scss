@@ -1,0 +1,55 @@
+@import 'reset';
+@import 'config';
+
+
+header {
+    height: 200px;
+    width: 100%;
+    padding: 48px 20px;
+    background: $background-linear;
+    font-family: $lexend-deca;
+
+    .container {
+        height: 104px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            margin-top: 4.7px;
+        }
+    }
+
+    form {
+        color: white;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+
+        i {
+            margin-right: 10px;
+        }
+        input {
+            background: none;
+            border: none;
+        }
+    }
+}
+
+::placeholder {
+    font-family: $inter;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    opacity: 0.5;
+}
