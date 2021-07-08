@@ -97,6 +97,21 @@
         }
     </script>
 
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '50px',
+        duration: 2000,
+        reset: true
+    });
+
+    ScrollReveal().reveal('.container', { delay: 200 });
+    ScrollReveal().reveal('section', { delay: 300 });
+    ScrollReveal().reveal('.status', { delay: 400 });
+    ScrollReveal().reveal('.info', { delay: 500 });
+</script>
 </body>
 
 </html>
